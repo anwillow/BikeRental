@@ -6,7 +6,7 @@ namespace BikeRentalApp
 {
     public partial class Form1 : Form
     {
-        private string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\dozor\source\repos\BikeRentalApp\BikeRentalApp\Database3.accdb;";
+        private string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=.\Database3.accdb;";
         private OleDbConnection connection;
 
         public Form1()
