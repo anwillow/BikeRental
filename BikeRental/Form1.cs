@@ -70,6 +70,7 @@ namespace BikeRentalApp
             adapter.Fill(dataTable);
             dataGridView1.DataSource = dataTable;
             dataGridView2.ReadOnly = true;
+            dataGridView1.ReadOnly = true;
             dataGridView3.ReadOnly = true;
             dataGridView4.ReadOnly = true;
 
